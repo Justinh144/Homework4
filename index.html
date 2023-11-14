@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" type="text/css" href="./assets/css/style.css" />
+
+  <title>Java Quiz</title>
+</head>
+<body>
+
+  <h1>Java Quiz</h1>
+  <button id="startButton" onclick="startQuiz()">Start Quiz</button>
+  <p id="question"></p>
+  <div class ="choiceCSS" id="choices"></div>
+  <p id="clock"></p>
+
+  <form id="scoreForm" >
+    <label for="userName">Initials:</label>
+    <input type="text" id="userName" name="userName" maxlength="3" required>
+    <button type="button" onclick="submitScore()">Submit Score</button>
+  </form>
+
+  <div id="displayScore">
+    <p>Your Score: <span id="finalScore">0</span></p>
+  </div>
+  <script src="./assets/js/script.js"></script>
+  </body>
