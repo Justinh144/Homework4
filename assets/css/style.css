@@ -1,0 +1,67 @@
+body {
+    font-family: 'Open Sans', sans-serif;
+    font-size: 16px;
+    background-color: black; 
+    color: white; 
+  }
+
+  .disregard {
+    text-align: center;
+    margin-top: 60px;
+    display: block;
+  }
+  
+  .description {
+    background-color: black;
+    color: white;
+    border: 1px groove white;
+    padding: 10px;
+    white-space: pre-wrap;
+    background: linear-gradient(to left, rgba(255, 255, 255, 0.5), transparent); 
+   }
+
+  .time-block {
+    border-radius: 15px;
+    background-color: black;
+
+  }
+  
+  .row {  
+    border: groove white;   
+  }
+  
+  .hour {
+    background-color: ;
+    color: White;
+    border-left: white; 
+    border-color: white;
+  }
+  
+  .past {
+    background-color: black;
+    color: white;
+  }
+  
+  .present {
+    background-color: green;
+    color: white;
+  }
+  
+  .future {
+    background-color: red;
+    color: white;
+  }
+  
+  .saveBtn {
+    border-left: 1px solid black;
+    border-top-right-radius: 15px;
+    border-bottom-right-radius: 15px;
+    background-color: black;
+    color: white;
+  }
+  
+  .saveBtn i:hover {
+    font-size: 20px;
+    transition: all 0.3s ease-in-out;
+  }
+  
